@@ -1,0 +1,37 @@
+<header class="noselect">
+  <div class="header-logo col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center" [ngClass]="menuPosition">
+   
+  </div>
+
+  <div class="header-menu col-md-12 col-lg-12 col-sm-12 col-xs-12">
+    <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
+      <a routerLink="/" title="Ourpark" (click)="setScroll()">
+      <img src="assets/rp_logo.svg" width="90" class="logo" [ngClass]="menuPosition" height="90" alt="Ourpark logo" />
+    </a>
+    </div>
+    <div class="menu-nav col-md-10 col-lg-10 col-sm-10 col-xs-10">
+      <div class="menu-nav-web col-lg-12 col-md-12 hidden-sm-down text-lg-right text-md-right">
+        <a *ngFor="let item of menuItems"
+           class="menu-nav-web-item" 
+           [routerLink]="item.link" 
+           routerLinkActive="active" 
+           (click)="setScroll(250)">
+          {{item.name}}
+        </a>
+      </div>
+      <div class="menu-nav-mobile col-xs-12 col-sm-12 hidden-md-up text-xs-right text-sm-right"
+           (click)="setMobileMenuStatus.emit(!isMobileMenuOpened)">
+        <i [ngClass]="isMobileMenuOpened?'fa fa-times':'fa fa-bars'" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="menu-mobile noselect" [ngClass]="isMobileMenuOpened?'open':''">
+  <ul>
+    <li *ngFor="let item of menuItems">
+      <a [routerLink]="item.link" routerLinkActive="active" (click)="setScroll(250)">
+        {{item.name}}
+      </a>
+    </li>
+  </ul>
+</div>

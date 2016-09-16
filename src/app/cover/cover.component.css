@@ -1,0 +1,26 @@
+.cover-wrapper {
+    padding: 0;
+    z-index: -9;
+    background-image: url("assets/vila.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px; 
+    -webkit-box-shadow: 0px 0px 8px 2px #212121;
+    -moz-box-shadow: 0px 0px 8px 2px #212121;
+    box-shadow: 0px 0px 8px 2px #212121;
+}
+
+.cover {
+    padding:0;
+    z-index: -999 !important;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+}
+
+.cover-logo{
+    max-height: 300px;
+    max-width: 100%;
+    padding: 70px 0 20px 0;
+    opacity: 0.8;
+}
