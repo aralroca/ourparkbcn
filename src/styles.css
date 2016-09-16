@@ -1,33 +1,5 @@
-/*
- COMPATIBILITY:
- IE9 Compat Modes,
- IE6-IE8,
- Super Modern Browsers,
- Pretty Modern Browsers,
- Safari,
- Android,
- iOS,
- Legacy iOS */
-/* Futura PT Book (Normal) */
-@font-face {
-  font-family: 'FuturaPT';
-  src: url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.eot");
-  src: url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.woff2") format("woff2"), url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.woff") format("woff"), url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.ttf") format("truetype"), url("/assets/fonts/FuturaPT_Book/FuturaPT_Book.svg#wf") format("svg");
-  font-weight: normal;
-  font-style: normal; 
-  }
-
-/* Futura PT Medium (Bold) */
-@font-face {
-  font-family: 'FuturaPT';
-  src: url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.eot");
-  src: url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.woff2") format("woff2"), url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.woff") format("woff"), url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.ttf") format("truetype"), url("/assets/fonts/FuturaPT_Medium/FuturaPT_Medium.svg#wf") format("svg");
-  font-weight: bold;
-  font-style: normal; 
-  }
-  
 body {
-   font-family: 'FuturaPT' !important;
+   font-family: 'Roboto', sans-serif !important;
    background-color: #fafafa !important;
    color: #212121 !important;
 }
