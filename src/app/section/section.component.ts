@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 @Component({
   selector: 'app-section',
@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
       z-index:-11;
       font-size: 18px;
     }
-  `]
+  `],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class SectionComponent {}

@@ -14,6 +14,7 @@ import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { SectionComponent } from './section/section.component';
 import { FooterComponent } from './footer/footer.component';
+import { MapComponent } from './map/map.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ScrollService } from './scroll.service';
 
@@ -29,6 +30,7 @@ import { ScrollService } from './scroll.service';
     SectionComponent,
     ContactComponent,
     FooterComponent,
+    MapComponent,
     PageNotFoundComponent 
   ],
   imports: [
