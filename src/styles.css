@@ -23,6 +23,29 @@ body {
     user-select: none;
 }
 
+.calendar .fc-toolbar {
+  display:none;
+}
+
+.calendar .fc-agendaWeek-view tr {
+  height: 40px;
+}
+
+.calendar .fc-time-grid.fc-unselectable {
+  min-height: 0 !important;
+}
+
+.calendar .fc-time-grid-container{
+  height: auto !important;
+}
+
+.calendar .fc-day-header span{
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+}
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }

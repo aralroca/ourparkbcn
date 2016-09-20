@@ -2,8 +2,22 @@
    <h1>Clases</h1>
  <p>
 Aliquam eget varius nisi. Donec molestie ex a eros molestie mollis. Vestibulum vestibulum tempus lorem, vel faucibus justo pellentesque ac. Praesent ac finibus dui, a convallis felis. Sed finibus, orci vel imperdiet lobortis, enim ante congue nisl, at tristique felis purus in justo. Vestibulum et pulvinar eros, sit amet aliquam odio. Aliquam maximus semper augue, eget ultricies massa mattis non. Mauris eu imperdiet dui. Nulla eleifend magna et diam efficitur, et commodo nibh imperdiet. Proin lobortis risus dui, eu ultrices risus vestibulum nec. Sed eleifend semper massa, ac consequat magna lacinia et. Suspendisse venenatis, libero at eleifend condimentum, sem velit lacinia arcu, suscipit consectetur odio nibh a ipsum. Integer urna magna, scelerisque sed laoreet nec, tempor laoreet nibh.
-</p><p>
+</p>
 
+<app-calendar [events]="classes"
+              defaultView="agendaWeek" 
+              [allDaySlot]="false"
+              scrollTime="17:00:00"
+              minTime="16:00:00"
+              class="calendar"
+              maxTime="21:00:00"
+              columnFormat="dddd"
+              [weekends]="false"
+              firstDay="1"
+              locale="es">
+</app-calendar>
+
+<p style="margin-top:20px">
 Morbi sollicitudin gravida ex vitae molestie. Donec vel dui elementum, rhoncus tortor venenatis, laoreet massa. Quisque at purus pharetra, feugiat neque in, volutpat mi. Pellentesque condimentum dui et nunc cursus venenatis. Aenean condimentum vitae dolor at tristique. Aenean a diam at nisi blandit faucibus eget sed tortor. Integer a arcu eu metus congue faucibus.
 </p><p>
 
