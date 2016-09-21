@@ -13,7 +13,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { SectionComponent } from './section/section.component';
-import { TariffComponent } from './tariff/tariff.component';
+import { FeeComponent } from './fee/fee.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapComponent } from './map/map.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -31,7 +31,7 @@ import { ScrollService } from './scroll.service';
     EventsComponent,
     SectionComponent,
     ContactComponent,
-    TariffComponent,
+    FeeComponent,
     FooterComponent,
     MapComponent,
     CalendarComponent, 
