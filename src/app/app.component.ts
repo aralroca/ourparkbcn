@@ -34,6 +34,10 @@ export class AppComponent {
       "name": "Clases",
       "link": "/classes"
     },
+     {
+      "name": "Tarifas",
+      "link": "/tariff"
+    },
     {
       "name": "Eventos",
       "link": "/events"
@@ -49,7 +53,7 @@ export class AppComponent {
   }
 
   private isMobile(){
-    return window.innerWidth<768;
+    return window.innerWidth<830;
   }
 
   public setMobileMenuStatus(status){

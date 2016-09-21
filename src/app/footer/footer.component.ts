@@ -4,10 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   template: `<footer class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
              <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4">
-              Català | Español | English
+             Ourpark © {{currentYear}}
              </div>
              <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 text-lg-center text-md-center text-sm-center text-xs-center">
-             Ourpark © {{currentYear}}
 
              </div>
              <div class="col-md-4 col-lg-4 col-sm-4 col-xs-4 text-lg-right text-md-right text-sm-right text-xs-right">

@@ -14,32 +14,32 @@ export class ClassesComponent implements OnInit {
   ngOnInit() {
     this.classes = [
             {
-                title:"Clases Aral",
+                title:"Clases Niños",
                 start: '18:00', 
                 end: '20:00', 
-                dow: [ 1 ],
-                backgroundColor: "#FF8A80" 
-            },
-            {
-               title:"Clases Josep",
-               start: '18:00', 
-               end: '20:00', 
-               dow: [ 2, 4 ],
-               backgroundColor: "#03A9F4"
-            },
-            {
-               title:"Clases Guillem",
-               start: '18:00', 
-               end: '20:00', 
-               dow: [ 3 ],
-               backgroundColor: "#CDDC39" 
+                dow: [ 1, 2, 3, 4 ],
+                backgroundColor: "#AED581" 
             },
              {
-               title:"Lliure",
+                title:"Clases Adultos",
+                start: '20:00', 
+                end: '22:00', 
+                dow: [ 1, 2, 3, 4 ],
+                backgroundColor: "#7CB342" 
+            },
+            {
+               title:"Claror",
+               start: '19:00', 
+               end: '21:00', 
+               dow: [ 1, 3 ],
+               backgroundColor: "#E1F5FE" 
+            },
+             {
+               title:"Open park",
                start: '17:00', 
                end: '21:00', 
                dow: [ 5 ],
-               backgroundColor: "#26A69A" 
+               backgroundColor: "#D4E157" 
             }
         ];
   }

@@ -27,9 +27,10 @@ export class MapComponent implements OnInit {
   ngOnInit() {
      this.mapTimeout = setTimeout(() => {
       this.map = new L.Map(this.mapId, {
-        zoomControl: false,
+        zoomControl: true,
         center: new L.LatLng(this.lat, this.lng),
         zoom: this.zoom,
+        scrollWheelZoom: false,	
         minZoom: 4,
         maxZoom: 19,
         layers: [new L.TileLayer('http://korona.geog.uni-heidelberg.de/tiles/roads/x={x}&y={y}&z={z}', {
