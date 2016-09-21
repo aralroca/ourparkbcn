@@ -36,8 +36,8 @@ export class ClassesComponent implements OnInit {
             },
              {
                title:"Open park",
-               start: '17:00', 
-               end: '21:00', 
+               start: '18:00', 
+               end: '22:00', 
                dow: [ 5 ],
                backgroundColor: "#D4E157" 
             }

@@ -35,8 +35,8 @@ export class AppComponent {
       "link": "/classes"
     },
      {
-      "name": "Tarifas",
-      "link": "/tariff"
+      "name": "Cuotas",
+      "link": "/fee"
     },
     {
       "name": "Eventos",

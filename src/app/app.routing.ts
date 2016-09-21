@@ -4,7 +4,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { InstalationsComponent } from './instalations/instalations.component';
 import { ClassesComponent } from './classes/classes.component';
 import { EventsComponent } from './events/events.component';
-import { TariffComponent } from './tariff/tariff.component';
+import { FeeComponent } from './fee/fee.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
@@ -13,7 +13,7 @@ const appRoutes: Routes = [
   { path: 'about-us', component: AboutUsComponent },
   { path: 'instalations', component: InstalationsComponent },
   { path: 'classes', component: ClassesComponent },
-  { path: 'tariff', component: TariffComponent },
+  { path: 'fee', component: FeeComponent },
   { path: 'events', component: EventsComponent },
   { path: 'contact', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent }

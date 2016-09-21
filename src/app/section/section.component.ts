@@ -8,7 +8,7 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   styles: [`
     .appSection{
       padding: 50px 10vw 50px 10vw;
-      min-height: 300px;
+      min-height: 400px;
       text-align: justify;
       z-index:-11;
       font-size: 18px;

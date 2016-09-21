@@ -3,13 +3,15 @@ declare const L:any;
 
 @Component({
   selector: 'app-map',
-  template: `<div [id]="mapId" [class]="mapId"></div>`,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<div *ngIf="showBox" class="map-box"></div>
+             <div [id]="mapId" [class]="mapId"></div>
+  `,
   styles: [`
-  .leaflet-container{
+  .leaflet-container, .map-box{
       width:100%;
       height:300px;
-    }`
+    }
+   `
   ]
 })
 export class MapComponent implements OnInit {
@@ -20,6 +22,7 @@ export class MapComponent implements OnInit {
   @Input('lng') lng: number;
   private mapTimeout: any;
   private map: any;
+  public showBox: boolean = true;
 
   constructor() { 
   }
@@ -38,6 +41,7 @@ export class MapComponent implements OnInit {
         })]
       });
       L.marker([this.lat, this.lng],{icon:L.icon({iconUrl:'./assets/marker-icon.png'})}).addTo(this.map);
+      this.showBox = false;
     }, 200);
   }
 
