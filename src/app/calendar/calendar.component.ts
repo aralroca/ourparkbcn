@@ -1,3 +1,6 @@
+declare var $;
+const jQuery = $;
+
 import {
     Component,
     ElementRef,

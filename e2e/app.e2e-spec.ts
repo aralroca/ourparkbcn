@@ -1,10 +1,10 @@
-import { OurparkPage } from './app.po';
+import { OurparkbcnPage } from './app.po';
 
-describe('ourpark App', function() {
-  let page: OurparkPage;
+describe('ourparkbcn App', function() {
+  let page: OurparkbcnPage;
 
   beforeEach(() => {
-    page = new OurparkPage();
+    page = new OurparkbcnPage();
   });
 
   it('should display message saying app works', () => {
