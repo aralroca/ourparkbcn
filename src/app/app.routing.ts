@@ -7,6 +7,7 @@ import { EventsComponent } from './events/events.component';
 import { FeeComponent } from './fee/fee.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { VirtualVisitComponent } from './virtual-visit/virtual-visit.component';
 
 const appRoutes: Routes = [
   { path: '', component: AboutUsComponent },
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
   { path: 'fee', component: FeeComponent },
   { path: 'events', component: EventsComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'virtual-visit', component: VirtualVisitComponent},
   { path: '**', component: PageNotFoundComponent }
 ];
 

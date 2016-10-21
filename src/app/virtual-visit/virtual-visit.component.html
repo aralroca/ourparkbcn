@@ -1,0 +1,15 @@
+<div class="fade-in virtual-visit col-md-12 col-lg-12 col-sm-12 col-xs-12">
+  <vg-player class="player">
+    <a-scene vr-model-ui="enabled: true" (renderstart)="onAframeRenderStart()">
+      <a-assets>
+        <video [src]="currentVideo" vg-media id="video" preload="auto" crossorigin="anonymous" loop></video>
+      </a-assets>
+
+      <a-videosphere src="#video"></a-videosphere>
+
+      <a-camera>
+        <a-cursor color="#283A87"></a-cursor>
+      </a-camera>
+    </a-scene>
+  </vg-player>
+</div>

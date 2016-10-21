@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing, appRoutingProviders } from './app.routing';
+import { VgCore } from 'videogular2/core';
+import { VgControlsModule } from 'videogular2/controls';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -19,6 +21,7 @@ import { MapComponent } from './map/map.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ScrollService } from './scroll.service';
+import { VirtualVisitComponent } from './virtual-visit/virtual-visit.component';
 
 @NgModule({
   declarations: [
@@ -35,14 +38,18 @@ import { ScrollService } from './scroll.service';
     FooterComponent,
     MapComponent,
     CalendarComponent, 
-    PageNotFoundComponent 
+    PageNotFoundComponent,
+    VirtualVisitComponent 
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    VgCore,
+    VgControlsModule
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [appRoutingProviders, ScrollService],
   bootstrap: [AppComponent]
 })

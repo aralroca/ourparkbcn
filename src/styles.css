@@ -62,3 +62,10 @@ body {
   -moz-animation-duration:0.7s;
   animation-duration:0.7s;
 }
+
+.a-html{
+  position:relative !important;
+}
+.a-body{
+  overflow:scroll !important;
+}
