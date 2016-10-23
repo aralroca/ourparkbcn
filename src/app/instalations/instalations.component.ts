@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from '../scroll.service';
 
 @Component({
   selector: 'app-instalations',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InstalationsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scrollService: ScrollService) { }
 
   ngOnInit() {
+  }
+
+  setScrollTo250(){
+    this.scrollService.setScrollTop(250);
   }
 
 }

@@ -3,7 +3,8 @@ import { ScrollService } from './scroll.service';
 
 @Component({
   selector: 'app-root',
-  template: `<div class="fade-in">
+  template: `
+             <div class="fade-in">
               <app-menu [menuPosition]="menuPosition" 
                         [menuItems]="menuItems" 
                         [isMobileMenuOpened]="isMobileMenuOpened"

@@ -30,7 +30,10 @@
         "../node_modules/fullcalendar/dist/fullcalendar.min.js",
         "../node_modules/fullcalendar/dist/locale/es.js",
         "../node_modules/fullcalendar/dist/gcal.js",
-        "../node_modules/aframe/dist/aframe.js"
+        "../node_modules/reflect-metadata/Reflect.js",
+        "../node_modules/aframe/dist/aframe.js",
+        "../node_modules/aframe-animation-component/dist/aframe-animation-component.js",
+        "../node_modules/aframe-bmfont-text-component/dist/aframe-bmfont-text-component.js"
       ],
       "environments": {
         "source": "environments/environment.ts",
