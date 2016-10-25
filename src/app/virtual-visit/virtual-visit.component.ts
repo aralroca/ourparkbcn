@@ -52,8 +52,9 @@ export class VirtualVisitComponent implements OnInit {
       url: '/assets/360videos/360_0044_Stitch_XHC.mp4',
       track: './assets/data/stage-1.vtt',
       doors: [
-        { id: 'd1', position: '0 1 9', rotation: '180 0 0', goto: 'v1' },
-        { id: 'd2', position: '6 1 9', rotation: '0 -130 0', goto: 'v3' }
+        { id: 'd1', position: '4 1 -1', rotation: '0 110 0', goto: 'v1' },
+        { id: 'd2', position: '2 1.5 4', rotation: '0 -130 0', goto: 'v3' },
+        { id: 'd2', position: '7 2 2', rotation: '0 -110 0', goto: 'v2' }
       ],
       texts: [],
       textPlanes: []
@@ -63,31 +64,21 @@ export class VirtualVisitComponent implements OnInit {
       url: '/assets/360videos/360_0045_Stitch_XHC.mp4',
       track: '/assets/data/stage-2.vtt',
       doors: [
-        { id: 'd1', position: '-15 -3 -18', rotation: '0 -180 0', goto: 'v0' },
-        { id: 'd2', position: '8 1 9', rotation: '0 -130 0', goto: 'v2' }
+        { id: 'd1', position: '-4 0 5', rotation: '0 0 0', goto: 'v0' },
+        { id: 'd2', position: '6 2.5 0', rotation: '10 -70 40', goto: 'v2' },
+        { id: 'd3', position: '1 1 9', rotation: '0 -130 0', goto: 'v3' }
       ],
-      texts: [
-        {
-          id: 't1',
-          text: 'St. Maurici lake',
-          position: '6 0 -4',
-          rotation: '0 -30 0',
-          scale: '2 2 2',
-          opaAnim: 'startEvents: t1; property: opacity; dur: 300; from: 0; to: 1; elasticity: 1000',
-          posAnim: 'startEvents: t1; property: position; dur: 500; from: 6 0 -4; to: 6 0.3 -4; elasticity: 1000'
-        }
-      ],
-      textPlanes: [
-        { id: 'p1', position: '17 0 -7', rotation: '-90 -30 0', width: 20, height: 20, target: 't1', isShown: false }
-      ]
+      texts: [],
+      textPlanes: []
     },
     {
       id: 'v2',
       url: '/assets/360videos/360_0046_Stitch_XHC.mp4',
       track: '/assets/data/stage-3.vtt',
       doors: [
-        { id: 'd1', position: '-1 1 -8', rotation: '0 -30 0', goto: 'v1' },
-        { id: 'd2', position: '0 2 7', rotation: '0 180 0', goto: 'v3' }
+        { id: 'd1', position: '-7 2 4', rotation: '0 -50 0', goto: 'v1' },
+        { id: 'd2', position: '-3.3 2 7', rotation: '0 -30 0', goto: 'v3' },
+        { id: 'd3', position: '-5.3 2.3 7', rotation: '0 -30 0', goto: 'v0' }
       ],
       texts: [],
       textPlanes: []
@@ -97,8 +88,10 @@ export class VirtualVisitComponent implements OnInit {
       url: '/assets/360videos/360_0047_Stitch_XHC.mp4',
       track: '/assets/data/stage-4.vtt',
       doors: [
-        { id: 'd1', position: '-5 2 7', rotation: '0 130 0', goto: 'v2' },
-        { id: 'd2', position: '3 4 7', rotation: '0 210 0', goto: 'v1' }
+        { id: 'd1', position: '-3 2 0.5', rotation: '0 50 0', goto: 'v0' },
+        { id: 'd2', position: '0.5 1.4 -4', rotation: '0 110 0', goto: 'v1' },
+        { id: 'd3', position: '8 1.6 -3', rotation: '0 110 0', goto: 'v2' }
+
       ],
       texts: [],
       textPlanes: []
