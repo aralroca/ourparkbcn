@@ -32,12 +32,12 @@ export class AppComponent {
       "link": "/instalations"
     },
     {
-      "name": "Clases",
+      "name": "Clases y tarifas",
       "link": "/classes"
     },
      {
-      "name": "Cuotas",
-      "link": "/fee"
+      "name": "Servicios",
+      "link": "/services"
     },
     {
       "name": "Eventos",

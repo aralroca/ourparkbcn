@@ -15,7 +15,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 import { SectionComponent } from './section/section.component';
-import { FeeComponent } from './fee/fee.component';
+import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { MapComponent } from './map/map.component';
 import { CalendarComponent } from './calendar/calendar.component';
@@ -34,7 +34,7 @@ import { VirtualVisitComponent } from './virtual-visit/virtual-visit.component';
     EventsComponent,
     SectionComponent,
     ContactComponent,
-    FeeComponent,
+    ServicesComponent,
     FooterComponent,
     MapComponent,
     CalendarComponent, 

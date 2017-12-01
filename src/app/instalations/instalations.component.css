@@ -1,3 +1,12 @@
 .virtual-visit{
     padding-top: 20px;
 }
+
+.gym-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gym-image img {
+    max-width: 100%
+}
