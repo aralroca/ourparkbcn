@@ -1,71 +1,71 @@
 body {
-   font-family: 'Roboto', sans-serif !important;
-   background-color: #fafafa !important;
-   color: #212121 !important;
-}
-
-.loading-icon {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -25px;
-  margin-left: -25px;
-  color: #BDBDBD;
-}
-
-.noselect {
-   cursor: default;
-   -webkit-touch-callout: none;
-   -webkit-user-select: none;
-   -khtml-user-select: none;
-   -moz-user-select: none;
-   -ms-user-select: none;
-   user-select: none;
-}
-
-.calendar .fc-toolbar {
-  display:none;
-}
-
-.calendar .fc-agendaWeek-view tr {
-  height: 40px;
-}
-
-.calendar .fc-time-grid.fc-unselectable {
-  min-height: 0 !important;
-}
-
-.calendar .fc-time-grid-container{
-  height: auto !important;
-}
-
-.calendar .fc-day-header span{
-  white-space: nowrap;
-  overflow: hidden;
-  display: block;
-  text-overflow: ellipsis;
-}
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.fade-in {
-  opacity:0;  
-  -webkit-animation:fadeIn ease-in 1;  
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-  -webkit-animation-fill-mode:forwards;  
-  -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-  -webkit-animation-duration:0.7s;
-  -moz-animation-duration:0.7s;
-  animation-duration:0.7s;
-}
-
-.a-html{
-  position:relative !important;
-}
-.a-body{
-  overflow:scroll !important;
-}
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #fafafa !important;
+    color: #212121 !important;
+ }
+ 
+ .loading-icon {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   margin-top: -25px;
+   margin-left: -25px;
+   color: #BDBDBD;
+ }
+ 
+ .noselect {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+ 
+ .calendar .fc-toolbar {
+   display:none;
+ }
+ 
+ .calendar .fc-agendaWeek-view tr {
+   height: 40px;
+ }
+ 
+ .calendar .fc-time-grid.fc-unselectable {
+   min-height: 0 !important;
+ }
+ 
+ .calendar .fc-time-grid-container{
+   height: auto !important;
+ }
+ 
+ .calendar .fc-day-header span{
+   white-space: nowrap;
+   overflow: hidden;
+   display: block;
+   text-overflow: ellipsis;
+ }
+ 
+ @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+ .fade-in {
+   opacity:0;  
+   -webkit-animation:fadeIn ease-in 1;  
+   -moz-animation:fadeIn ease-in 1;
+   animation:fadeIn ease-in 1;
+   -webkit-animation-fill-mode:forwards;  
+   -moz-animation-fill-mode:forwards;
+   animation-fill-mode:forwards;
+   -webkit-animation-duration:0.7s;
+   -moz-animation-duration:0.7s;
+   animation-duration:0.7s;
+ }
+ 
+ .a-html{
+   position:relative !important;
+ }
+ .a-body{
+   overflow:scroll !important;
+ }

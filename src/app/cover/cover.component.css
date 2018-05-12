@@ -1,7 +1,7 @@
 .cover-wrapper {
     padding: 0;
     z-index: -9;
-    background-image: url("assets/vila.jpg");
+    background-image: url("/assets/vila.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px; 
